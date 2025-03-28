@@ -17,7 +17,16 @@ A sleek and responsive movie search application built using React and Vite. This
 ✅ ESLint & Code Standards - Ensures clean and maintainable code.
 
 🎬 Screenshots
-<p align="center"> <img src="src/assets/m1.jpg" width="300"> <img src="src/assets/m2.jpg" width="300"> <br> <img src="src/assets/m3.jpg" width="300"> <img src="src/assets/m4.jpg" width="300"> </p>
+<p align="center"> 
+<img src="src/assets/m1.jpg" width="300"> 
+<br>
+
+<img src="src/assets/m2.jpg" width="300"> 
+<br> 
+<img src="src/assets/m3.jpg" width="300"> 
+<br>
+
+<img src="src/assets/m4.jpg" width="300"> </p>
 ⚙️ Tech Stack
 Frontend: React, JavaScript, Vite
 
