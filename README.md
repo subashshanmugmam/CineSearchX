@@ -2,11 +2,14 @@
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-### Screenshots  
-![Movie 1](src/assets/m1.jpg)  
-![Movie 2](src/assets/m2.jpg)  
-![Movie 3](src/assets/m3.jpg)  
-![Movie 4](src/assets/m4.jpg)  
+## Screenshots  
+<p align="center">
+  <img src="src/assets/m1.jpg" width="200">
+  <img src="src/assets/m2.jpg" width="200">
+  <img src="src/assets/m3.jpg" width="200">
+  <img src="src/assets/m4.jpg" width="200">
+</p>
+
 
 
 Currently, two official plugins are available:
