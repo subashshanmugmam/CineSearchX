@@ -33,7 +33,9 @@ Development Tools: ESLint, Prettier
 bash
 Copy
 Edit
-git clone https://github.com/subashshanmugmam/CineSearchX/edit/main/README.md
+git clone https://github.com/subashshanmugmam/CineSearchX.git
+
+
 cd CineSearchX
 
 
@@ -43,18 +45,24 @@ bash
 Copy
 Edit
 npm install
+
+
 3️⃣ Start the development server:
 
 bash
 Copy
 Edit
 npm run dev
+
+
 4️⃣ Open your browser and visit:
 
 arduino
 Copy
 Edit
 http://localhost:5173
+
+
 🔧 Expanding the Project
 If you are developing a production-ready application, consider:
 
