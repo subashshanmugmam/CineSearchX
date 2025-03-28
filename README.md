@@ -3,9 +3,17 @@ A sleek and responsive movie search application built using React and Vite. This
 
 🚀 Features
 ✅ Real-time Movie Search - Get instant search results based on user input.
+
+
 ✅ Top Movie Recommendations - Highlights the best-matching movies at the top.
+
+
 ✅ Modern UI with React - Smooth and responsive interface powered by React.
+
+
 ✅ Optimized Performance - Built with Vite for fast and efficient development.
+
+
 ✅ ESLint & Code Standards - Ensures clean and maintainable code.
 
 🎬 Screenshots
@@ -19,13 +27,16 @@ Development Tools: ESLint, Prettier
 
 📂 Project Setup
 🔹 Installation & Setup
-1️⃣ Clone the repository:
 
+
+1️⃣ Clone the repository:
 bash
 Copy
 Edit
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/subashshanmugmam/CineSearchX/edit/main/README.md
+cd CineSearchX
+
+
 2️⃣ Install dependencies:
 
 bash
