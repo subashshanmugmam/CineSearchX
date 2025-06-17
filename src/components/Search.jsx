@@ -1,8 +1,6 @@
 import React from 'react'
 
-
-const Search = ({searchTerm,setsearchTerm}) => {
-
+const Search = ({searchTerm, setsearchTerm}) => {
   return (
     <div className="search">
         <div>
@@ -13,7 +11,7 @@ const Search = ({searchTerm,setsearchTerm}) => {
                 value={searchTerm}
                 onChange={(e) => setsearchTerm(e.target.value)}
             />
-            </div>
+        </div>
     </div>
   )
 }

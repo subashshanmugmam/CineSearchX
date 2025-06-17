@@ -1,24 +1,28 @@
 import React from 'react'
 
-const Moviecard = ({movie:{title,vote_average,poster_path,release_date,original_language}}) => {
+const Moviecard = ({movie}) => {
+  // Extract properties from RapidAPI Movies Database structure
+  const title = movie.titleText?.text || movie.originalTitleText?.text || 'Unknown Title';
+  const releaseYear = movie.releaseYear?.year || movie.releaseDate?.year || 'N/A';
+  const rating = movie.ratingsSummary?.aggregateRating || 'N/A';
+  const posterUrl = movie.primaryImage?.url || '/no-movie.png';
+  
   return (
     <div className="movie-card">
        <p className="text-white">{title}</p>
-       <img src={poster_path ? https://image.tmdb.org/t/p/w500/${poster_path} : '/no-movie.png'}
-       alt="N/A" />
+       <img src={posterUrl}
+       alt={title} />
        <div className="mt-4">
          <h3>{title}</h3>
          <div className='content'>
              <div className='rating'>
                  <img src='./star.svg' alt='Star Icon' />
-                 <p>{vote_average ? vote_average.toFixed(1) : 'N/A'}</p>
+                 <p>{rating !== 'N/A' ? rating.toFixed(1) : 'N/A'}</p>
              </div>
              <span>.</span>
-             <p className='lang'>{original_language}</p>
+             <p className='lang'>{movie.originalTitleText?.text ? 'EN' : 'N/A'}</p>
              <span>.</span>
-             <p className='year'>
-                 {release_date ? release_date.split('-')[0] : 'N/A'}
-             </p>
+             <p className='year'>{releaseYear}</p>
          </div>
          </div>
      </div>
